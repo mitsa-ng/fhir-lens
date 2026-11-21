@@ -1,0 +1,17 @@
+{
+  "name": "fhir-lens",
+  "version": "0.1.0",
+  "description": "Zero-dependency FHIR R4 toolkit: conformance-subset validator, search-param builder, and read/search client with CLI",
+  "type": "module",
+  "bin": {
+    "fhir-lens": "./bin/fhir-lens.ts"
+  },
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "license": "MIT",
+  "keywords": ["fhir", "hl7", "healthcare", "interoperability", "validator", "cli"]
+}
